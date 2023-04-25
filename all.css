@@ -141,7 +141,7 @@ table {
   display: flex;
 }
 
-.brand-logo {
+.nav-bar-logo {
   color: #1e1e1e;
   font-size: 24px;
   margin-left: 5%;
@@ -502,7 +502,6 @@ table {
 .customer-img-2 {
   height: 270px;
   width: 195px;
-  margin-top: 1%;
   margin-left: 10%;
   background-image: url("images/customer-img-2.png");
   background-size: 200px;
@@ -511,6 +510,81 @@ table {
 
 .footer-container {
   width: 100%;
-  height: 500px;
-  background-color: yellow;
+  height: 400px;
+  background-color: #c1dcdc;
+  padding: 0.1px;
+  margin-top: 10%;
+  display: flex;
 }
+
+.footer-left-container {
+  width: 30%;
+  margin-left: 8%;
+  margin-top: 5%;
+}
+
+.footer-logo {
+  font-size: 22px;
+  }
+
+.footer-left-container p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}  
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  margin-top: 20px;
+}
+
+.social-media-facebook, .social-media-instagram, .social-media-twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50px;
+
+}
+
+.social-media-facebook a, .social-media-instagram a, .social-media-twitter a {
+  color: black;
+}
+
+.copyright {
+  margin-top: 15%;
+  font-size: 18px;
+  color: #1E1E1E;
+}
+
+.footer-right-container {
+  width: 20%;
+  margin-left: 35%;
+  margin-top: 3%;
+}
+
+.footer-right-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-right-menu a {
+  text-decoration: none;
+  color: #1e1e1e80;
+}
+
+.footer-right-menu-left, .footer-right-menu-mid, .footer-right-menu-right {
+  display: flex;
+  flex-direction: column;
+  line-height: 3;
+}
+
+.footer-right-menu-left-title a, .footer-right-menu-mid-title a, .footer-right-menu-right-title a {
+  font-weight: bold;
+  color: black;
+}
+
